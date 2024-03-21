@@ -1,0 +1,60 @@
+.new-todo-container {
+    min-height: 100vh; /* Establece la altura mínima en 100% de la altura del viewport (área de visualización) */
+    min-width: 100vw; /* Establece el ancho mínimo en 100% del ancho del viewport (área de visualización) */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+
+.full-page-container {
+        min-height: 100vh;
+        min-width: 100vw;
+      }
+
+
+  }
+  .new-todo-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #333; /* Color del texto del título */
+  }
+  
+  .new-todo-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .new-todo-input,
+  .new-todo-textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #e6dcdc; /* Color del borde */
+    border-radius: 5px;
+  }
+  
+  .new-todo-button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .new-todo-button:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el ratón */
+  }
+  
+  .new-todo-link {
+    color: #007bff; /* Color del enlace */
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+  .new-todo-link:hover {
+    text-decoration: underline; /* Subrayar el enlace al pasar el ratón */
+  }
+  
